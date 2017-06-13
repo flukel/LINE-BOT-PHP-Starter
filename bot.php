@@ -18,7 +18,7 @@ if (!is_null($events['events'])) {
 
             // Build message to reply back
             //if ($text != 'เจิน') {
-            if(preg_match('(เจิน,jern)', $text)){
+            if(preg_match('/\bเจิน\b/i', $text)){
 
                 $messages = [
                 'type' => 'text',
