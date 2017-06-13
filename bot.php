@@ -18,9 +18,8 @@ if (!is_null($events['events'])) {
 
             // Build message to reply back
             $messages = [
-                'type' => 'image',
-                'originalContentUrl' => 'http://nerdist.com/wp-content/uploads/2016/05/20160506_nerdistnews_capexclusive_1x1.jpg'
-                'previewImageUrl' => 'http://nerdist.com/wp-content/uploads/2016/05/20160506_nerdistnews_capexclusive_1x1.jpg'
+                'type' => 'text',
+                'text' => 'ครับ ไปละครับ'
             ];
 
             // Make a POST Request to Messaging API to reply to sender
