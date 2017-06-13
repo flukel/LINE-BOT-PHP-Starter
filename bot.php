@@ -17,7 +17,8 @@ if (!is_null($events['events'])) {
             $replyToken = $event['replyToken'];
 
             // Build message to reply back
-            if ($text != 'เจิน') {
+            //if ($text != 'เจิน') {
+            if(preg_match('(เจิน,jern)', $text)){
 
                 $messages = [
                 'type' => 'text',
